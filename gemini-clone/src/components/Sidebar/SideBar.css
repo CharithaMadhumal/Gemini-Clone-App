@@ -27,13 +27,18 @@
     background-color: #e6eaf1;
     border-radius: 50px;
     font-size: 14px;
-    color: gray;
+    color: rgb(27, 22, 22);
     cursor: pointer;
+}
+
+.sidebar .new-chat:hover{
+    background-color: aquamarine;
 }
 
 .sidebar .recent{
     display: flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 }
 
 .sidebar .recent-title{
@@ -64,5 +69,11 @@
 .sidebar .bottom-item{
     padding-right: 10px;
     cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .sidebar{
+        display: none;
+    }
 }
 
