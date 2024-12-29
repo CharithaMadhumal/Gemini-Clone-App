@@ -22,8 +22,8 @@ export const assets = {
     setting_icon,
     bulb_icon,
     compass_icon,
-    gallery_icon,
-    mic_icon,
+    
+   
     youtube_icon,
     message_icon,
     code_icon,
